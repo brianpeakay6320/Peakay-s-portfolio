@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEAKAY BRIAN'S PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+   <section class="head">
+        <a href="#home" class="logo"> Brian Kipruto </a>
+        
+        <nav class="navbar">
+            <i class="fa"><img src="icon1.png" alt="close menu" onclick="hideMenu()"></i>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skillh1">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <i class="fa"><img src=icon1.png alt="open menu" onclick="showMenu()"></i>
+   </section> 
+   <section id="home"class="main">
+        <div class="details">
+            <p class="intr">Hello, <br>My Name is <span> B</span>rian <span>K</span>ipruto</span></p>
+            <p class="name">A Full Stack Web Developer|A Graphics Designer|Software Engineer To Come</p>
+        </div>
+   </section>
+   <section class="about">
+   <h1 id="about">ABOUT</h1> 
+        <div class="myabout">
+        <img src="mine.png" alt="Its Peakay" class="mine">
+        <p>Am a student at Pwani University at Kilifi in Kenya who is fully committed to the computing world. I’m a full stack developer with a deep passion for JavaScript, React and all things web development. Also a graphics designer. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit and playing guitar..</p>
+        </div>
+        <div class="mySkills" id="right1">
+            <h1>Frontend Web Developer</h1>
+            <p>
+                A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product. I develope beautiful and responsive webpages. 
+            </p>
+           
+        </div>
+        <div class="mySkills" id="right2">
+            <h1>Graphics Designer</h1>
+            <p>
+                I also exist in the creative world, where pixels meet passion, and design is not just a job but a visual journey.As a seasoned graphics designer with a relentless commitment to transforming ideas into captivating visual stories. I design brochures, posters, flyers, business cards, logos and many more.
+            </p>
+        </div>
+        <div class="mySkills" id="right3">
+            <h1>Software Engineer</h1>
+            <p>
+                As a software developer, I bring expertise in various programming languages and technologies, coupled with a deep understanding of software engineering principles. With a track record of delivering robust solutions and collaborating effectively in agile environments, I thrive on solving complex problems and creating innovative software solutions. Explore my projects and achievements, and let's connect to discuss how we can work together to drive impactful results.
+            </p>
+        </div>
+        <hr>
+        <h1 id="skillh1">SKILLS</h1>
+        <h2 class="h2">These are The Tools I use:</h2>
+        <div id="skills">
+            <div class="lgs">
+                <img src="html.png" alt="">
+                <p style="text-align: center;">HTML</p>
+            </div>  
+            <div class="lgs">
+                <img src="css.png" alt="">
+                <p style="text-align: center;">CSS</p>
+            </div>  
+            <div class="lgs">
+                <img src="js.png" alt="">
+                <p style="text-align: center;">JAVASCRIPT</p>
+            </div>  
+            <div class="lgs">
+                <img src="react.png" alt="">
+                <p style="text-align: center;">REACT</p>
+            </div>  
+            <div class="lgs">
+                <img src="node.png" alt="">
+                <p style="text-align: center;">NODEJS</p>
+            </div>  
+            <div class="lgs">
+                <img src="sass.png" alt="">
+                <p style="text-align: center;">SASS</p>
+            </div>  
+            <div class="lgs">
+                <img src="mongo.png" alt="">
+                <p style="text-align: center;">MONGODB</p>
+            </div>  
+            <div class="lgs">
+                <img src="af-designer.png" alt="">
+                <p style="text-align: center;">MONGODB</p>
+            </div>  
+          
+        </div>
+
+        <h1 style="margin-left: 40%">Graphics designing</h1>
+
+        <div id="skills">
+            
+            <div class="lgs">
+                <img src="AI.png" alt="">
+                <p style="text-align: center;">ADODE ILLUSTRATOR</p>
+            </div>  
+            <div class="lgs">
+                <img src="ps.png" alt="">
+                <p style="text-align: center;">PHOTOSHOP</p>
+            </div>  
+            <div class="lgs">
+                <img src="af-photo.png" alt="">
+                <p style="text-align: center;">AFFINITY</p>
+            </div>    
+        </div>  
+</section>
+<section id="project" class="project">
+    <h1 id="contact" class="contacth1">Projects</h1>
+            <div class="projs">
+                <iframe src="file:///C:/Users/Administrator/Pictures/netflixclone/index1.html" scrolling+
+                ="auto" width="880" height="450"></iframe>
+                <h1>Movie App</h1>
+            </div>
+
+            <div class="projs">
+                <iframe src="http://127.0.0.1:5502/index1.html#" scrolling+
+                ="auto" width="880" height="450"></iframe>
+                <h1>Netflix Clone App</h1>
+            </div>
+</section>
+   <section  class="contact">
+   <h1 id="contact" class="contacth1">CONTACT</h1>
+   <div class="container">
+    <form action="contactform.php" method="POST" class="form">
+        <div class="form-group">
+           <label for="name" class="form_label">NAME</label> 
+           <input type="text" name="name" id="name" class="form_control" placeholder="kevin hart" required>
+        </div>
+        <div class="form-group">
+           <label for="email" class="form_label">EMAIL</label> 
+           <input type="text" name="email" id="email" class="form_control" placeholder="kevin@hart.com" required>
+        </div>
+        <div class="form-group">
+           <label for="subject" class="form_label">SUBJECT</label> 
+           <input type="text" name="subject" id="subject" class="form_control" placeholder="Write Reason for Contacting">
+        </div>
+        <div class="form-group">
+           <label for="message" class="form_label">MESSAGE</label> 
+           <textarea name="message" id="message" class="form_control"cols="30" rows="10" placeholder="Write Your Message..." required></textarea>
+        </div>
+        <button name="button">SUBMIT</button>
+    </form>
+   </div>
+   <h3>Pk Brian </h3>
+   </section>
+</body>
+<script> src="script.js" </script>
+</html>
